@@ -1,9 +1,5 @@
-## -------------------------------
-## Script 4 for data analysis
-## -------------------------------
-
-# Estimation of Number of Interventions on Ecosystem Service Multifunctionality 
-# Using Mixed Effects Model and Visualization
+## Estimation of Number of Interventions on Ecosystem Service Multifunctionality 
+## Using Mixed Effects Model and Visualization
 
 
 library(nlme)
@@ -547,4 +543,5 @@ plot.all <- grid.arrange(plot1, plot2, plot3, nrow = 1)
 
 ggsave(filename="Effect_NoT.png",  plot.all, device="png", 
        width=1500, height=500, units="px")
+
 
