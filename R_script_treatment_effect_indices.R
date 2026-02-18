@@ -1,9 +1,5 @@
-## -------------------------------
-## Script 5 for data analysis
-## -------------------------------
-
-# Multiple Comparison of the Effect of Different Treatment Combinations 
-# on Ecosystem Service Multifunctionality
+## Multiple Comparison of the Effect of Different Treatment Combinations 
+## on Ecosystem Service Multifunctionality
 
 
 library(nlme)
@@ -185,5 +181,6 @@ for (i in 1:7) {
 
 # save(all.y.List, all.y.coef.List, all.index.List, all.index.coef.List,
 #      cld.list.ally, cld.list.index, file="Colt_park_model3.RData")
+
 
 
