@@ -1,9 +1,5 @@
-## -------------------------------
-## Script 3 for data analysis
-## -------------------------------
-
-# Estimation of Treatment Effects on Individual Ecosystem Service Indicators 
-# Using Mixed Effects Model and Visualization
+## Estimation of Treatment Effects on Individual Ecosystem Service Indicators 
+## Using Mixed Effects Model and Visualization
 
 library(nlme)
 library(lme4)
